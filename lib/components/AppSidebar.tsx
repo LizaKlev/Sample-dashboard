@@ -43,9 +43,9 @@ export function AppSidebar() {
   return (
     <Sidebar collapsible={'icon'} className='h-screen'>
       <SidebarContent className='pt-6 bg-background border-r-border'>
-        <div className='flex pl-8 pb-4 items-center h-16 align-middle'>
+        {/* <div className='flex pl-8 pb-4 items-center h-16 align-middle'>
           <Image src='/logo.svg' alt='Logo' width={45} height={45} />
-        </div>
+        </div> */}
         <SidebarGroupContent className='flex-grow p-4 space-y-2'>
           <SidebarMenu>
             {items.map((item) => (
